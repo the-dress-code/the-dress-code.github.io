@@ -4,13 +4,13 @@
 <title>Wendy Randolph</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="CSS/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1 {font-family: "Montserrat", sans-serif}
 img {margin-bottom: -7px}
-.w3-row-padding img {margin-bottom: 12px}
+.wr-row-padding img {margin-bottom: 12px}
 .top {
   padding-left: 5px;
   padding-right: 5px;
@@ -24,47 +24,46 @@ img {margin-bottom: -7px}
 <body>
 
 <!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+<nav class="wr-sidebar wr-black wr-animate-top wr-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="wr_close()" class="wr-button wr-black wr-xxlarge wr-padding wr-display-topright" style="padding:6px 24px">
     <i class="fa fa-remove"></i>
   </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+  <div class="wr-bar-block wr-center">
+    <a href="#" class="wr-bar-item wr-button wr-text-grey wr-hover-black">About</a>
+    <a href="#" class="wr-bar-item wr-button wr-text-grey wr-hover-black">Shop</a>
+    <a href="#" class="wr-bar-item wr-button wr-text-grey wr-hover-black">Contact</a>
   </div>
 </nav>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+<div class="wr-content" style="max-width:1500px">
 
 <!-- Header -->
-<div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-<div class="w3-clear"></div>
-<header class="w3-center w3-margin-bottom">
+<div class="wr-opacity">
+<span class="wr-button wr-xxlarge wr-white wr-right" onclick="wr_open()"><i class="fa fa-bars"></i></span> 
+<div class="wr-clear"></div>
+<header class="wr-center wr-margin-bottom">
   <h1 class="top"><b>WENDY RANDOLPH</b></h1>
   <p class="intro"><b>I like Clojure & garment sewing.</b></p>
   <p class="intro"><b>HIRE ME for thoughtful, meticulous, imaginative, & exceptional work.</b></p>
-  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
 </header>
 </div>
 
 <!-- Photo Grid -->
-<div class="w3-row" id="myGrid" style="margin-bottom:128px">
-  <div class="w3-third">
+<div class="wr-row" id="myGrid" style="margin-bottom:128px">
+  <div class="wr-third">
     <img src="/navy-dress/IMG_3821 2.jpeg" style="width:100%">
     <img src="/navy-dress/62135889675__50059CE8-9C20-450B-96F8-78A0D5E2EA93.JPG" style="width:100%">
     <img src="/navy-dress/62136684013__70B55B00-5BEC-432D-97E2-D68F5ECA1485.JPG" style="width:100%">
   </div>
 
-  <div class="w3-third">
+  <div class="wr-third">
     <img src="/navy-dress/IMG_3494.jpeg" style="width:100%">
     <img src="/navy-dress/IMG_3497.jpeg" style="width:100%">
     <img src="/navy-dress/IMG_3526.jpeg" style="width:100%">
   </div>
 
-  <div class="w3-third">
+  <div class="wr-third">
     <img src="/navy-dress/IMG_3530.jpeg" style="width:100%">
     <img src="/navy-dress/IMG_3570.jpeg" style="width:100%">
     <img src="/navy-dress/IMG_3627.jpeg" style="width:100%">
@@ -75,31 +74,31 @@ img {margin-bottom: -7px}
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Published with <a href="https://pages.github.com" target="_blank" class="w3-hover-text-green">GitHub Pages</a></p>
+<footer class="wr-container wr-padding-64 wr-light-grey wr-center wr-opacity wr-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-instagram wr-hover-opacity"></i>
+  <i class="fa fa-twitter wr-hover-opacity"></i>
+  <i class="fa fa-linkedin wr-hover-opacity"></i>
+  <p class="wr-medium">Published with <a href="https://pages.github.com" target="_blank" class="wr-hover-text-green">GitHub Pages</a></p>
 </footer>
  
 <script>
 // Toggle grid padding
 function myFunction() {
   var x = document.getElementById("myGrid");
-  if (x.className === "w3-row") {
-    x.className = "w3-row-padding";
+  if (x.className === "wr-row") {
+    x.className = "wr-row-padding";
   } else { 
-    x.className = x.className.replace("w3-row-padding", "w3-row");
+    x.className = x.className.replace("wr-row-padding", "wr-row");
   }
 }
 
 // Open and close sidebar
-function w3_open() {
+function wr_open() {
   document.getElementById("mySidebar").style.width = "100%";
   document.getElementById("mySidebar").style.display = "block";
 }
 
-function w3_close() {
+function wr_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 </script>
