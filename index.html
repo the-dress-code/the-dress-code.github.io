@@ -11,7 +11,7 @@
 body,h1 {font-family: "Montserrat", sans-serif}
 img {margin-bottom: -7px}
 .wr-row-padding img {margin-bottom: 12px}
-.top {
+.name {
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -28,29 +28,33 @@ img {margin-bottom: -7px}
 </head>
 <body>
 
-<!-- Sidebar -->
+<!-- Sidebar 
 <nav class="wr-sidebar wr-black wr-animate-top wr-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
   <a href="javascript:void(0)" onclick="wr_close()" class="wr-button wr-black wr-xxlarge wr-padding wr-display-topright" style="padding:6px 24px">
     <i class="fa fa-remove"></i>
   </a>
   <div class="wr-bar-block wr-center">
-    <a href="#" class="wr-bar-item wr-button wr-text-grey wr-hover-black">About</a>
+    <a href="#about" class="wr-bar-item wr-button wr-text-grey wr-hover-black">About</a>
     <a href="#" class="wr-bar-item wr-button wr-text-grey wr-hover-black">Shop</a>
     <a href="#" class="wr-bar-item wr-button wr-text-grey wr-hover-black">Contact</a>
   </div>
 </nav>
+-->
 
 <!-- !PAGE CONTENT! -->
 <div class="wr-content" style="max-width:1500px">
 
 <!-- Header -->
 <div class="wr-opacity">
+
+<!-- Maybe later 
 <span class="wr-button wr-xxlarge wr-white wr-right" onclick="wr_open()"><i class="fa fa-bars"></i></span> 
 <div class="wr-clear"></div>
+-->
 <header class="wr-center wr-margin-bottom">
-  <h1 class="top"><b>WENDY RANDOLPH</b></h1>
+  <h1 class="name"><b>WENDY RANDOLPH</b></h1>
   <p class="intro-1"><b>I like Clojure & garment sewing.</b></p>
-  <p class="intro-2"><b>HIRE ME for thoughtful, meticulous, imaginative, & exceptional work.</b></p>
+  <p class="intro-2"><b>HIRE ME for thoughtful, meticulous, imaginative, & exceptional programming.</b></p>
 </header>
 </div>
 
@@ -75,6 +79,11 @@ img {margin-bottom: -7px}
   </div>
 </div>
 
+<!-- Maybe later add this in 
+<h2 id="about" class="name">ABOUT</h2>
+-->
+
+
 <!-- End Page Content -->
 </div>
 
@@ -84,6 +93,8 @@ img {margin-bottom: -7px}
   <p class="wr-medium">ⓒ 2022 Wendy Randolph</p>
 </footer>
 
+
+<!-- Maybe implement later 
 <script>
   
 // Open and close sidebar
@@ -96,6 +107,7 @@ function wr_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 </script>
+-->
 
 </body>
 </html>
