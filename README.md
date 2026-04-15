@@ -1,2 +1,2 @@
-# the-dress-code.github.io
+# wendyrandolph.com
 my personal page
